@@ -48,7 +48,7 @@ class YourTopMusic extends StatelessWidget {
                                   color: hexToColor(topMix['color'])
                               ),
                             ),
-                            SizedBox(height: 12,), //Margen
+                            const SizedBox(height: 12,), //Margen
                             Container(
                               height: 8,
                               decoration: BoxDecoration(
@@ -62,13 +62,13 @@ class YourTopMusic extends StatelessWidget {
                           ]
                       ),
                     ),
-                    SizedBox(height: 8,), //Margen
+                    const SizedBox(height: 8,), //Margen
                     Text(topMix['title'], style: TextStyle(
                         color: Colores.starterWhite,
                         fontSize: 14,
                         fontWeight: FontWeight.w600
                     )),
-                    SizedBox(height: 8,), //Margen
+                    const SizedBox(height: 8,), //Margen
                     Text(topMix['description'], style: TextStyle(
                         color: Colores.starterWhite,
                         fontSize: 11,

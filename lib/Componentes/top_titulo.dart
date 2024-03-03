@@ -20,7 +20,7 @@ class TopTitulo extends StatelessWidget {
         )),
         IconButton(
             onPressed: (){ },
-            icon: Icon(Icons.more_vert, color: Colors.white))
+            icon: const Icon(Icons.more_vert, color: Colors.white))
       ],
     );
   }

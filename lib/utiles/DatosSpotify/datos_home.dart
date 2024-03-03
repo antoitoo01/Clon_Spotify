@@ -1,10 +1,10 @@
 final List<Map<String, dynamic>> slider = [
   {
-    "title" : "30 Fresh music for you every week ",
+    "title" : "30 canciones nuevas para ti cada semana",
     "image" : "lib/res/imagenes/yourDiscover.png",
   },
   {
-    "title" : "New songs every friday",
+    "title" : "Cada viernes, ¡nuevas canciones!",
     "image" : "lib/res/imagenes/friday.png",
   },
 ];
@@ -12,19 +12,19 @@ final List<Map<String, dynamic>> slider = [
 final List<Map<String, dynamic>> topMixes = [
   {
     "title" : "Hip Hop Mix",
-    "description" : "Juice Wrld, Drake, Kendrick lamar and more... ",
+    "description" : "Juice Wrld, Drake, Kendrick lamar y más... ",
     "image" : "lib/res/imagenes/music1.png",
     "color" : "#EF0CAF"
   },
   {
     "title" : "Moody Mix",
-    "description" :  "Joji, The Kid LAROI, Tate McRae and more...",
+    "description" :  "Joji, The Kid LAROI, Tate McRae y más...",
     "image" : "lib/res/imagenes/music2.png",
     "color" : "#FFFF00"
   },
   {
     "title" : "House Mix",
-    "description" :  "Martin Garrix, The Chainsmoker and more...",
+    "description" :  "Martin Garrix, The Chainsmoker y más...",
     "image" : "lib/res/imagenes/music3.png",
     "color" : "#1ED760"
   },

@@ -20,7 +20,7 @@ class TituloSemanal extends StatelessWidget {
                 fontSize: 18,
                 fontWeight: FontWeight.w600
             ),
-            children: [
+            children: const [
               TextSpan(
                   text: "semanal",
                   style: TextStyle(

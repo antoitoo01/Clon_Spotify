@@ -24,7 +24,7 @@ class RecopilacionSemanal extends StatelessWidget {
                   Container(
                     height: 125,
                     width: 240,
-                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    margin: const EdgeInsets.symmetric(horizontal: 8),
                     decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(15),
@@ -35,7 +35,7 @@ class RecopilacionSemanal extends StatelessWidget {
                         )
                     ),
                   ),
-                  SizedBox(height:8),
+                  const SizedBox(height:8),
                   Text(slide['title'], style: TextStyle(
                       color: Colores.starterWhite,
                       fontSize: 11,

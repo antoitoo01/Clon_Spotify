@@ -1,6 +1,7 @@
 # flutter_app
 
-A new Flutter project.
+Clon de Spotify realizado por Antonio Torres Gómez en 2º C.F.G.S. DAM para la asignatura
+Diseño de Interfaces.
 
 ## Getting Started
 

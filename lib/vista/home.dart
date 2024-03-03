@@ -14,23 +14,23 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(16),
+    return const SingleChildScrollView(
+      padding: EdgeInsets.all(16),
       child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 24), // Margen
-            const TopTitulo(title: "¡Buenos días!"),
-            const SizedBox(height: 32), // Margen
-            const TituloSemanal(),
-            const SizedBox(height: 24), // Margen
-            const RecopilacionSemanal(),
-            const SizedBox(height: 16), // Margen
-            const CustomTitle(title: "Tu top musical"),
-            const YourTopMusic(),
-            const SizedBox(height: 12,), // Margen
-            const CustomTitle(title: "Artistas recomendados"),
-            const ArtistasSugeridos()
+            SizedBox(height: 24), // Margen
+            TopTitulo(title: "¡Buenos días!"),
+            SizedBox(height: 32), // Margen
+            TituloSemanal(),
+            SizedBox(height: 24), // Margen
+            RecopilacionSemanal(),
+            SizedBox(height: 16), // Margen
+            CustomTitle(title: "Tu top musical"),
+            YourTopMusic(),
+            SizedBox(height: 12,), // Margen
+            CustomTitle(title: "Artistas recomendados"),
+            ArtistasSugeridos()
           ]
       ),
     );
