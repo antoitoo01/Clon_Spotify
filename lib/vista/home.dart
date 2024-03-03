@@ -8,8 +8,6 @@ import '../Componentes/carrusel_tu_musica.dart';
 import '../Componentes/custom_title.dart';
 import '../Componentes/titulo_semanal.dart';
 import '../Componentes/top_titulo.dart';
-import '../utiles/DatosSpotify/datos_home.dart';
-import '../utiles/SpotifyColors.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -33,8 +31,6 @@ class Home extends StatelessWidget {
             const SizedBox(height: 12,), // Margen
             const CustomTitle(title: "Artistas recomendados"),
             const ArtistasSugeridos()
-
-
           ]
       ),
     );
